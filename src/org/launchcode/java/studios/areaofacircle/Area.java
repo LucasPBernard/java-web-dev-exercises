@@ -6,7 +6,7 @@ public class Area {
 
 
         Double a;
-        Double pi = 3.14;
+        Double pi = 3.14159265;
         Double r;
         Scanner input = new Scanner(System.in);
         System.out.println("What is your radius?");
