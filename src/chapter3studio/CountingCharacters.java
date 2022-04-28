@@ -1,7 +1,7 @@
 package chapter3studio;
 
 import java.util.HashMap;
-import java.util.Map;
+//import java.util.Map;
 
 public class CountingCharacters {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class CountingCharacters {
             }
         }
 
-        for(Map.Entry<Character,Integer> entry : count.entrySet()) {
+        for(HashMap.Entry<Character,Integer> entry : count.entrySet()) {
             System.out.println(entry.getKey() + ":" + entry.getValue());
         }
     }
